@@ -10,7 +10,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 function Navbar() {
   return (
-    <div className=" bg-MyColor-FadedRed text-white fixed left-0 top-0 w-[6vh] h-[90%]  flex flex-col justify-between items-center z-10">
+    <div className=" bg-MyColor-FadedRed text-white fixed left-0 top-0 w-[5vh] h-[90%]  flex flex-col justify-between items-center z-10">
       <div className=" border-b border-white h-[60px] w-full flex justify-center items-center ">
         <AiOutlineSearch className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer ease-in  duration-75 " />
       </div>

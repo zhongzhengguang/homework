@@ -4,18 +4,18 @@ import sale from "../public/sale.png";
 function Sale() {
   return (
     <div className=" ml-[67px] mt-10">
-      <div className=" lg:flex ">
-        <div className=" bg-MyColor-blue1 w-full h-full ">
+      <div className=" lg:flex">
+        <div className=" bg-MyColor-blue1 h-full ">
           <Image
             alt="/"
             src={sale}
-            className=" w-full"
+            className="w-full"
             style={{ objectFit: "cover" }}
           />
-          <div className="m-5 flex">
+          <div className="m-5 flex w-full">
             <div className=" text-black">
               <h1 className=" text-2xl ">
-                1100 Performance Series JFH1100RQ Flugelhorn
+                1100 Performance Series <br /> JFH1100RQ Fl ugelhorn
               </h1>
               <p>1100 Performance Series JFH1100RQ Flugelhorn</p>
             </div>
@@ -24,42 +24,44 @@ function Sale() {
             </button>
           </div>
         </div>
-        <div className=" bg-MyColor-green w-full h-full ">
-          <Image
-            alt="/"
-            src={sale}
-            className=" w-full"
-            style={{ objectFit: "cover" }}
-          />
-          <div className="m-5 flex">
-            <div className=" text-white">
-              <h1 className=" text-2xl ">
-                1100 Performance Series JFH1100RQ Flugelhorn
-              </h1>
-              <p>1100 Performance Series JFH1100RQ Flugelhorn</p>
+        <div className="sm:flex ">
+          <div className="bg-MyColor-green h-full ">
+            <div className="m-5 flex w-full">
+              <div className=" text-black">
+                <h1 className=" text-2xl ">
+                  1100 Performance Series <br /> JFH1100RQ Fl ugelhorn
+                </h1>
+                <p>1100 Performance Series JFH1100RQ Flugelhorn</p>
+              </div>
+              <button className="mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105 ease-in duration-75 ">
+                More
+              </button>
             </div>
-            <button className=" mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105 ease-in  duration-75 ">
-              More
-            </button>
+            <Image
+              alt="/"
+              src={sale}
+              className="w-full"
+              style={{ objectFit: "cover" }}
+            />
           </div>
-        </div>
-        <div className=" bg-MyColor-white1 w-full h-full ">
-          <Image
-            alt="/"
-            src={sale}
-            className=" w-full"
-            style={{ objectFit: "cover" }}
-          />
-          <div className="m-5 flex">
-            <div className=" text-black">
-              <h1 className=" text-2xl ">
-                1100 Performance Series JFH1100RQ Flugelhorn
-              </h1>
-              <p>1100 Performance Series JFH1100RQ Flugelhorn</p>
+          <div className="bg-MyColor-blue1 h-full ">
+            <Image
+              alt="/"
+              src={sale}
+              className="w-full"
+              style={{ objectFit: "cover" }}
+            />
+            <div className="m-5 flex w-full">
+              <div className=" text-black">
+                <h1 className=" text-2xl ">
+                  1100 Performance Series <br /> JFH1100RQ Fl ugelhorn
+                </h1>
+                <p>1100 Performance Series JFH1100RQ Flugelhorn</p>
+              </div>
+              <button className=" bg-black mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105 ease-in duration-75 ">
+                More
+              </button>
             </div>
-            <button className="  mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105 bg-black ease-in  duration-75 ">
-              More
-            </button>
           </div>
         </div>
       </div>
