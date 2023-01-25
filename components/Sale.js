@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import sale from "../public/sale.png";
+import bigsale from "../public/bigsale.png";
 function Sale() {
   return (
     <div className=" ml-[67px] mt-10">
@@ -8,7 +8,7 @@ function Sale() {
         <div className=" bg-MyColor-blue1 h-full ">
           <Image
             alt="/"
-            src={sale}
+            src={bigsale}
             className="w-full"
             style={{ objectFit: "cover" }}
           />
@@ -24,7 +24,7 @@ function Sale() {
             </button>
           </div>
         </div>
-        <div className="sm:flex ">
+        <div className="lg:flex ">
           <div className="bg-MyColor-green h-full ">
             <div className="m-5 flex w-full">
               <div className=" text-black">
@@ -39,15 +39,15 @@ function Sale() {
             </div>
             <Image
               alt="/"
-              src={sale}
+              src={bigsale}
               className="w-full"
               style={{ objectFit: "cover" }}
             />
           </div>
-          <div className="bg-MyColor-blue1 h-full ">
+          <div className="bg-MyColor-blue1 h-full mt-10 lg:mt-0 ">
             <Image
               alt="/"
-              src={sale}
+              src={bigsale}
               className="w-full"
               style={{ objectFit: "cover" }}
             />
