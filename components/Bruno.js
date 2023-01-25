@@ -36,8 +36,8 @@ function Bruno() {
 
   return (
     <div className="ml-[67px] h-[80vh] bg-black  mx-auto mt-10 relative">
-      <div ref={setTopRef} className="BgcTop" />
-      <div ref={setButtonRef} className="BgcButton" />
+      <div ref={setTopRef} className="" />
+      <div ref={setButtonRef} className="" />
       <div
         style={{
           backgroundImage: `url(${BrunoSlides[BrunocurrentIndex].img})`,
@@ -49,7 +49,8 @@ function Bruno() {
             <div className=" flex justify-center  flex-col md:ml-[15vh] md:space-y-5 pl-5">
               <h1 className=" md:text-3xl md:mt-10 text-lg font-semibold">
                 1100 Performance Series
-                <br /> JFH1100RQ Flugelhorn
+                <br />
+                JFH1100RQ Flugelhorn
               </h1>
               <p className=" md:text-2xl">
                 1100 Performance Series

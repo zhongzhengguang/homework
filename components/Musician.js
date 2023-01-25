@@ -10,7 +10,7 @@ function Musician() {
           <div className=" border-l h-full border-white ml-[67px]" />
           <div className="flex flex-col justify-center h-full ml-[15vh] w-[40vh] p-2 ">
             <h1 className="md:text-3xl text-lg text-white ">Woodwinds</h1>
-            <p className="mt-5 md:text-[20px] ">
+            <p className="mt-5 md:text-[20px]">
               1100 Performance Series JFH1100RQ Flugelhorn 1100 Performance
               Series JFH1100RQ Flugelhorn 1100 Performance Series JFH1100RQ
               Flugelhorn 1100 Performance Series JFH1100RQ Flugelhorn
