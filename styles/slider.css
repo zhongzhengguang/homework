@@ -1,0 +1,40 @@
+.swiper-button-next {
+}
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev::after {
+  display: none;
+}
+
+.BgcButton{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ECE7E5;
+
+  animation-name:bgcbutton;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+@keyframes bgcbutton {
+  0% { height: 0%; width: 100%; }
+  50%{ height: 50%; width: 100%;}
+  100% { height: 0%; width: 100%; }
+}
+.BgcTop{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  background-color: #ECE7E5;
+
+  animation-name:bgcTop;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes bgcTop {
+  0% { height: 0%; width: 100%; }
+  50%{ height: 50%; width: 100%;}
+  100% { height: 0%; width: 100%; }
+}
