@@ -19,11 +19,7 @@ function Sale() {
               </h1>
               <p>1100 Performance Series JFH1100RQ Flugelhorn</p>
             </div>
-            <button
-              className=" bg-black mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105
-              ease-in 
-              duration-75 "
-            >
+            <button className=" bg-black mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105 ease-in duration-75 ">
               More
             </button>
           </div>
@@ -42,11 +38,7 @@ function Sale() {
               </h1>
               <p>1100 Performance Series JFH1100RQ Flugelhorn</p>
             </div>
-            <button
-              className=" mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105
-              ease-in 
-              duration-75 "
-            >
+            <button className=" mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105 ease-in  duration-75 ">
               More
             </button>
           </div>
@@ -65,11 +57,7 @@ function Sale() {
               </h1>
               <p>1100 Performance Series JFH1100RQ Flugelhorn</p>
             </div>
-            <button
-              className=" bg-black mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105
-              ease-in 
-              duration-75 "
-            >
+            <button className="  mt-[18vh] w-[200px] h-[64px] border text-white text-2xl hover:scale-105 bg-black ease-in  duration-75 ">
               More
             </button>
           </div>

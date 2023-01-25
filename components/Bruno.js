@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import BrunoSlides from "../data/BrunoSlides";
 import { AiOutlineSwapLeft, AiOutlineSwapRight } from "react-icons/ai";
 import GlobalContext from "@/context/GlobalContext";
@@ -29,10 +29,10 @@ function Bruno() {
 
   const setTopRef = useRef(null);
   const setButtonRef = useRef(null);
-  const handleRef = () => {
-    setTopRef.current.classList.remove("BgcTop");
-    setTimeout(() => setTopRef.current.classList.add("BgcTop"));
-  };
+  // const handleRef = () => {
+  //   setTopRef.current.classList.remove("BgcTop");
+  //   setTimeout(() => setTopRef.current.classList.add("BgcTop"));
+  // };
 
   return (
     <div className="ml-[67px] h-[80vh] bg-black  mx-auto mt-10 relative">

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useReducer, useState } from "react";
+import React, { useEffect, useMemo, useReducer, useState, useRef } from "react";
 import GlobalContext from "./GlobalContext";
 import slides from "../data/slides";
 import BrunoSlides from "../data/BrunoSlides";
@@ -7,6 +7,8 @@ export default function ContextWrapper(props) {
   const [lab2, setLab2] = useState(false);
   const [lab3, setLab3] = useState(false);
   const [lab4, setLab4] = useState(false);
+  const setTopRef = useRef(null);
+  const setButtonRef = useRef(null);
   const handleLab1 = () => {
     setLab1(!lab1);
   };
@@ -27,11 +29,19 @@ export default function ContextWrapper(props) {
       ? BrunoSlides.length - 1
       : BrunocurrentIndex - 1;
     setBrunoCurrentIndex(newIndex);
+    setTopRef.current.classList.remove("BgcTop");
+    setTimeout(() => setTopRef.current.classList.add("BgcTop"));
+    setButtonRef.current.classList.remove("BgcButton");
+    setTimeout(() => setButtonRef.current.classList.add("BgcButton"));
   };
   const BrunonextSlide = () => {
     const isLastSlide = BrunocurrentIndex === BrunoSlides.length - 1;
     const newIndex = isLastSlide ? 0 : BrunocurrentIndex + 1;
     setBrunoCurrentIndex(newIndex);
+    setTopRef.current.classList.remove("BgcTop");
+    setTimeout(() => setTopRef.current.classList.add("BgcTop"));
+    setButtonRef.current.classList.remove("BgcButton");
+    setTimeout(() => setButtonRef.current.classList.add("BgcButton"));
   };
   const BrunogoToSlide = (slideIndex) => {
     setBrunoCurrentIndex(slideIndex);

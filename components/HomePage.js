@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import jupiter from "../public/jupiter.png";
 import homephoto from "../public/homephoto.png";
-import border from "../public/border.png";
 import { AiOutlineSwapLeft, AiOutlineSwapRight } from "react-icons/ai";
 function HomePage() {
   return (

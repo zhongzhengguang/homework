@@ -8,11 +8,6 @@ import instrument2 from "../public/instrument2.png";
 import instrument3 from "../public/instrument3.png";
 import instrument4 from "../public/instrument4.png";
 function Instrument() {
-  const [lab, setLab] = useState(false);
-  const handleNav = () => {
-    setLab(!lab);
-  };
-
   return (
     <div className="grid md:grid-rows-1  grid-flow-col ml-[67px] md:mt-10 mt-[10vh]">
       <Instrument1 img={instrument1} />

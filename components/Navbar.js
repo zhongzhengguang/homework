@@ -12,36 +12,16 @@ function Navbar() {
   return (
     <div className=" bg-MyColor-FadedRed text-white fixed left-0 top-0 w-[6vh] h-[90%]  flex flex-col justify-between items-center z-10">
       <div className=" border-b border-white h-[60px] w-full flex justify-center items-center ">
-        <AiOutlineSearch
-          className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer
-              ease-in 
-              duration-75 "
-        />
+        <AiOutlineSearch className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer ease-in  duration-75 " />
       </div>
       <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
         <CgMenuLeft className="-rotate-90 w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer ease-in duration-75  " />
       </Link>
       <div className=" space-y-2 pb-4">
-        <FaFacebookF
-          className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer
-              ease-in 
-              duration-75 "
-        />
-        <AiFillYoutube
-          className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer
-              ease-in 
-              duration-75 "
-        />
-        <BsInstagram
-          className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer
-              ease-in 
-              duration-75 "
-        />
-        <AiOutlineTwitter
-          className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer
-              ease-in 
-              duration-75 "
-        />
+        <FaFacebookF className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer ease-in duration-75 " />
+        <AiFillYoutube className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer ease-in duration-75 " />
+        <BsInstagram className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer ease-in duration-75 " />
+        <AiOutlineTwitter className="w-[21.86px] h-[21.86px] hover:scale-125 cursor-pointer ease-in duration-75 " />
       </div>
     </div>
   );

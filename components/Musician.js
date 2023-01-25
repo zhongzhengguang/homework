@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import musician2 from "../public/musician2.png";
 import musicians from "../data/musician.json";
 import { AiOutlineSwapLeft, AiOutlineSwapRight } from "react-icons/ai";
 function Musician() {
@@ -18,16 +17,8 @@ function Musician() {
             </p>
             <div className="flex justify-end mt-5 ">
               <button className="w-[130px] h-[64px] bg-MyColor-FadedRed text-white flex justify-between items-center">
-                <AiOutlineSwapLeft
-                  className=" text-4xl ml-5 hover:scale-125
-             ease-in
-             duration-75"
-                />
-                <AiOutlineSwapRight
-                  className="text-4xl mr-5 hover:scale-125
-             ease-in
-             duration-75"
-                />
+                <AiOutlineSwapLeft className=" text-4xl ml-5 hover:scale-125 ease-in duration-75" />
+                <AiOutlineSwapRight className="text-4xl mr-5 hover:scale-125 ease-in duration-75" />
               </button>
             </div>
             <div className=" flex  justify-center items-center space-x-10  mt-10 lg:hidden">

@@ -5,7 +5,7 @@ import InstrumentFeed from "@/components/InstrumentFeed";
 import Bruno from "@/components/Bruno";
 import Musician from "@/components/Musician";
 import Sale from "@/components/Sale";
-import Woodwinds2 from "@/components/Woodwinds2";
+import Woodwinds from "@/components/Woodwinds";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
         <HomePage />
         <InstrumentFeed />
         <Bruno />
-        <Woodwinds2 />
+        <Woodwinds />
         <Musician />
         <Sale />
       </div>
