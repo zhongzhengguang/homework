@@ -5,6 +5,7 @@ import InstrumentFeed from "@/components/InstrumentFeed";
 import Bruno from "@/components/Bruno";
 import Musician from "@/components/Musician";
 import Sale from "@/components/Sale";
+import Sale1 from "@/components/Sale1";
 import Woodwinds from "@/components/Woodwinds";
 
 export default function Home() {
@@ -16,14 +17,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="w-screen body">
+      <div className="body">
         <Navbar />
         <HomePage />
         <InstrumentFeed />
         <Bruno />
         <Woodwinds />
         <Musician />
-        <Sale />
+
+        <Sale1 />
       </div>
     </>
   );
