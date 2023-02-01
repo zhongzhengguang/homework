@@ -8,10 +8,5 @@ const GlobalContext = React.createContext({
   prevSlide: () => {},
   nextSlide: () => {},
   goToSlide: () => {},
-  BrunocurrentIndex: 0,
-  setBrunoCurrentIndex: () => {},
-  BrunoprevSlide: () => {},
-  BrunonextSlide: () => {},
-  BrunogoToSlide: () => {},
 });
 export default GlobalContext;

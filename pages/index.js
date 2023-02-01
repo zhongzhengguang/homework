@@ -5,7 +5,6 @@ import InstrumentFeed from "@/components/InstrumentFeed";
 import Bruno from "@/components/Bruno";
 import Musician from "@/components/Musician";
 import Sale from "@/components/Sale";
-import Sale1 from "@/components/Sale1";
 import Woodwinds from "@/components/Woodwinds";
 
 export default function Home() {
@@ -24,8 +23,7 @@ export default function Home() {
         <Bruno />
         <Woodwinds />
         <Musician />
-
-        <Sale1 />
+        <Sale />
       </div>
     </>
   );

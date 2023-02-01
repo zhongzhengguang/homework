@@ -9,7 +9,7 @@ import instrument3 from "../public/instrument3.png";
 import instrument4 from "../public/instrument4.png";
 function Instrument() {
   return (
-    <div className="grid md:grid-rows-1  grid-flow-col ml-[67px] md:mt-10 mt-[10vh]">
+    <div className="grid md:grid-rows-1  grid-flow-col ml-[48px] md:mt-10 mt-[10vh]">
       <Instrument1 img={instrument1} />
       <Instrument2 img={instrument2} />
       <Instrument3 img={instrument3} />

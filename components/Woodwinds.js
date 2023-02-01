@@ -19,7 +19,7 @@ function Woodwinds() {
   }, []);
 
   return (
-    <div className="relative ml-[67px] mt-10">
+    <div className="relative ml-[48px] mt-10">
       <Swiper ref={sliderRef} spaceBetween={50} slidesPerView={1} loop>
         {slides.map((item) => (
           <SwiperSlide key={item.id}>

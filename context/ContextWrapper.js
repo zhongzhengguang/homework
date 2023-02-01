@@ -22,31 +22,6 @@ export default function ContextWrapper(props) {
     setLab4(!lab4);
   };
 
-  const [BrunocurrentIndex, setBrunoCurrentIndex] = useState(0);
-  const BrunoprevSlide = () => {
-    const isFirstSlide = BrunocurrentIndex === 0;
-    const newIndex = isFirstSlide
-      ? BrunoSlides.length - 1
-      : BrunocurrentIndex - 1;
-    setBrunoCurrentIndex(newIndex);
-    setTopRef.current.classList.remove("BgcTop");
-    setTimeout(() => setTopRef.current.classList.add("BgcTop"));
-    setButtonRef.current.classList.remove("BgcButton");
-    setTimeout(() => setButtonRef.current.classList.add("BgcButton"));
-  };
-  const BrunonextSlide = () => {
-    const isLastSlide = BrunocurrentIndex === BrunoSlides.length - 1;
-    const newIndex = isLastSlide ? 0 : BrunocurrentIndex + 1;
-    setBrunoCurrentIndex(newIndex);
-    setTopRef.current.classList.remove("BgcTop");
-    setTimeout(() => setTopRef.current.classList.add("BgcTop"));
-    setButtonRef.current.classList.remove("BgcButton");
-    setTimeout(() => setButtonRef.current.classList.add("BgcButton"));
-  };
-  const BrunogoToSlide = (slideIndex) => {
-    setBrunoCurrentIndex(slideIndex);
-  };
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
@@ -82,11 +57,6 @@ export default function ContextWrapper(props) {
         prevSlide,
         nextSlide,
         goToSlide,
-        BrunocurrentIndex,
-        setBrunoCurrentIndex,
-        BrunoprevSlide,
-        BrunonextSlide,
-        BrunogoToSlide,
       }}
     >
       {props.children}
