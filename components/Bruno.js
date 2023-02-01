@@ -35,7 +35,7 @@ function Bruno() {
   // };
 
   return (
-    <div className="ml-[67px] h-[80vh] bg-black  mx-auto mt-10 relative">
+    <div className="h-[80vh] bg-black ml-[48px] mt-10 relative">
       <div ref={setTopRef} className="" />
       <div ref={setButtonRef} className="" />
       <div
